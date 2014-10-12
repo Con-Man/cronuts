@@ -13,7 +13,8 @@ if ( ! is_front_page() )
 		<div class="row">
 			<div id="primary" class="col-md-12 hfeed">
 				<div class="page-header clearfix">
-					<h1 class="pull-left"><?php the_title(); ?></h1>
+					<h1 class="pull-left"><i class="fa fa-comment"></i>&nbsp;<?php the_title(); ?></h1>
+
 				</div>
 
 				<div class="row">

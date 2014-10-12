@@ -58,3 +58,27 @@
 }
 
 /* End of Video Page Template*/
+
+/* Contact Form Styling */
+textarea.wpcf7-form-control.wpcf7-textarea {
+max-width: 100% !important;
+}
+
+.submit-button { 
+	text-align: center;
+	background: #D9534F;
+	color: #fff;
+	width: 200px;
+	padding: 1em;
+	margin: 0 0 0 1em;
+	-webkit-transition: all .25s ease;
+	   -moz-transition: all .25s ease;
+	    -ms-transition: all .25s ease;
+	     -o-transition: all .25s ease;
+	        transition: all .25s ease;
+}
+
+.submit-button:hover { 
+	background: #a04140;
+}
+/* End of Contact Styling */

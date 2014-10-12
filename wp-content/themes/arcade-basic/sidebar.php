@@ -8,6 +8,7 @@
  */
 ?>
 	<div id="secondary" <?php bavotasan_sidebar_class(); ?> role="complementary">
+		<?php if ( ! is_front_page()): ?>
 		<?php if ( ! dynamic_sidebar( 'sidebar' ) ) : ?>
 			<aside id="meta" class="widget">
 				<h3 class="widget-title"><?php _e( 'Default Widget', 'arcade' ); ?></h3>
@@ -22,4 +23,6 @@
 				</ul>
 			</aside>
 		<?php endif; ?>
+		<?php endif; ?>
+
 	</div><!-- #secondary.widget-area -->
