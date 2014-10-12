@@ -31,6 +31,14 @@
 	color: #D9534F !important;
 }
 
+#home-page-widgets { 
+	padding: 20px 0 20px !important;
+}
+
+.homepage-content { 
+	padding: 0 3em 2em 3em;
+}
+
 /* Video Page Template*/
 
 .videos { 

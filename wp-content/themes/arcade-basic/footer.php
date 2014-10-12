@@ -8,6 +8,21 @@
  */
 $bavotasan_theme_options = bavotasan_theme_options();
 ?>
+		<div class="social-icons row" style="text-align:center; margin:auto;">
+			<div class="facebook-icon col-md-4"> 
+				<i class="fa fa-facebook fa-4x"></i>
+			</div>
+
+			<div class="youtube-icon col-md-4">
+				<i class="fa fa-youtube fa-4x"></i>
+			</div>
+
+			<div class="twitter-icon col-md-4">
+				<i class="fa fa-twitter fa-4x"></i>
+			</div>	
+		</div>
+	</div>
+
 	</main><!-- main -->
 
 	<footer id="footer" role="contentinfo">
