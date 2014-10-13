@@ -370,6 +370,10 @@ msgstr ""
 msgid "Green"
 msgstr ""
 
+#: library/customizer.php:240 library/widgets/widget-image-icon.php:103
+msgid "Yellow"
+msgstr ""
+
 #: library/customizer.php:246
 msgid "Jumbo Headline"
 msgstr ""

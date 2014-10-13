@@ -239,6 +239,8 @@ class Bavotasan_Customizer {
 			'danger' => __( 'Red', 'arcade' ),
 			'warning' => __( 'Yellow', 'arcade' ),
 			'success' => __( 'Green', 'arcade' ),
+			'cronuts_color1' => __( 'Pink', 'arcade' ),
+
 		);
 
 		// Jumbo headline section panel
