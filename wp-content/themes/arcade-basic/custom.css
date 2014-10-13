@@ -154,6 +154,14 @@ max-width: 100% !important;
           transition: all .25s ease-in;
 }
 
+.bavotasan_custom_text_widget i.default {
+  	-webkit-transition: all .5s ease-out;
+     -moz-transition: all .5s ease-out;
+      -ms-transition: all .5s ease-out;
+       -o-transition: all .5s ease-out;
+          transition: all .5s ease-out;
+ }
+
 .bavotasan_custom_text_widget i.default:hover {
   	background: #ccc;
   	color: #fff;
@@ -169,20 +177,40 @@ max-width: 100% !important;
 
 /* Footer Styling */
 .social-icons { 
-	padding-bottom: 1em;
+	margin-bottom: 2em !important;
+	line-height: 1;
 }
 
 .facebook-icon i { 
 	color: #222;
+	font-size: 40px;
+	text-decoration:none;
+	-webkit-transition: all .5s ease-out;
+	   -moz-transition: all .5s ease-out;
+	    -ms-transition: all .5s ease-out;
+	     -o-transition: all .5s ease-out;
+	        transition: all .5s ease-out;
 }
+
 
 .youtube-icon i { 
 	color: #222;
+	-webkit-transition: all .25s ease-out;
+   -moz-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out;
+     -o-transition: all .25s ease-out;
+        transition: all .25s ease-out;
 
 }
 
+
 .twitter-icon i { 
 	color: #222;
+	-webkit-transition: all .25s ease-out;
+   -moz-transition: all .1s ease-out;
+    -ms-transition: all .1s ease-out;
+     -o-transition: all .1s ease-out;
+        transition: all .1s ease-out;
 
 }
 

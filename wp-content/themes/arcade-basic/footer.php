@@ -12,16 +12,17 @@ $bavotasan_theme_options = bavotasan_theme_options();
 
 	</main><!-- main -->
 	<div class="social-icons row" style="text-align:center; margin:auto;">
+			<div class="social-message"><h1>Follow Us On</h1></div></br>
 			<div class="facebook-icon col-md-4"> 
-				<a href="https://www.facebook.com/cronutscomedy"><i class="fa fa-facebook fa-4x"></i></a>
+				<a href="https://www.facebook.com/cronutscomedy"><i class="fa fa-facebook fa-3x"></i></a>
 			</div>
 
 			<div class="youtube-icon col-md-4">
-				<a href="https://www.youtube.com/channel/UCcWl6lVl8hOn-TCgwUxmL5Q"><i class="fa fa-youtube fa-4x"></i></a>
+				<a href="https://www.youtube.com/channel/UCcWl6lVl8hOn-TCgwUxmL5Q"><i class="fa fa-youtube fa-3x"></i></a>
 			</div>
 
 			<div class="twitter-icon col-md-4">
-				<a href="https://twitter.com/cronutscomedy"><i class="fa fa-twitter fa-4x"></i></a>
+				<a href="https://twitter.com/cronutscomedy"><i class="fa fa-twitter fa-3x"></i></a>
 			</div>	
 		</div>
 	</div>
