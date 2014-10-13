@@ -81,4 +81,9 @@
 	$more_site.click( function() {
 		$( 'html, body' ).animate( { scrollTop: ( $more_site.data( 'scroll-to' ) - 50 ) }, 'slow', 'swing' );
 	} );
+
+
+
 } )( jQuery );
+
+

@@ -19,7 +19,7 @@ get_header(); ?>
     		        </div>
     		    </article>
 			</div>
-			<?php get_sidebar(); ?>
+			
 		</div>
 	</div>
 

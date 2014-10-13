@@ -5,7 +5,6 @@
  * @since 1.0.0
  */
 get_header(); ?>
-
 	<div class="container">
 		<div class="row">
 			<div id="primary" <?php bavotasan_primary_attr(); ?>>
@@ -23,7 +22,7 @@ get_header(); ?>
 
 				<?php endwhile; // end of the loop. ?>
 			</div>
-			<?php get_sidebar(); ?>
+			
 		</div>
 	</div>
 

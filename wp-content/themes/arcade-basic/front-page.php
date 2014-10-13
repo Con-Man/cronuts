@@ -50,7 +50,7 @@ if ( 'page' == get_option('show_on_front') ) {
 	include( get_page_template() );
 } else {
 ?>
-	<div class="container">
+	<div class="container test">
 		<div class="row">
 			<div id="primary" <?php bavotasan_primary_attr(); ?>>
                 <?php
@@ -78,7 +78,7 @@ if ( 'page' == get_option('show_on_front') ) {
 				}
 				?>
 			</div><!-- #primary.c8 -->
-			<?php get_sidebar(); ?>
+			
 		</div>
 	</div>
 

@@ -6,7 +6,7 @@
 
 get_header(); 
 ?>
-<div class="primary-content">
+<div class="container">
 
 	<div class="row">
 			<div id="primary" class="col-md-12 hfeed">
@@ -49,7 +49,7 @@ get_header();
 
 									if( !empty($image) ): ?>
 
-										<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+										<a class="fancybox" href="<?php echo $image['url']; ?>"><img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" /></a>
 
 								<?php endif; ?>
 							</div>
@@ -61,7 +61,7 @@ get_header();
 							?>
 							</h4>
 
-							<h4 class="team_member_hometown">Hometown: 
+							<h4 class="team_member_hometown"><i class="fa fa-map-marker" style="color:#EF36A2;"></i>&nbsp;Hometown: 
 								<?php 
 									$hometown = the_sub_field('hometown');
 								?>

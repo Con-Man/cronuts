@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Post Block
+ * Template Name: News
  *
  * Description: A full width page template that will display 4 posts in a block without any sidebars
  *
@@ -19,7 +19,7 @@ if ( ! is_front_page() )
 
 				<div class="row">
 					<div class="col-md-6">
-					<h1 style="text-align:center;">From the Site</h1></br>
+					<h1  class="news_from_site"><i class="fa fa-globe fa-lg" style="color:#EF36A2;"></i>&nbsp;From the Site</h1></br>
 					<?php
 					$bavotasan_post_block_query = new WP_Query( array(
 						'posts_per_page' => 4,
@@ -50,10 +50,12 @@ if ( ! is_front_page() )
 					?>
 					</div>
 				</div>
-					<div col-md-6>
-					<h1 style="text-align:center;">From Twitter</h1></br>
-					<a class="twitter-timeline" href="https://twitter.com/CronutsComedy" data-widget-id="521521021375881216">Tweets by @CronutsComedy</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					<div class="col-md-6">
+						<h1 class="news_from_twitter"><i class="fa fa-twitter fa-lg" style="color:#4099FF;"></i>&nbsp;From Twitter</h1></br>
+						<div class="twitter_feed">
+							<a class="twitter-timeline" href="https://twitter.com/CronutsComedy" data-widget-id="521521021375881216">Tweets by @CronutsComedy</a>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						</div>
 					</div>
 			</div>
 		</div>

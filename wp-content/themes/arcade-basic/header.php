@@ -17,12 +17,61 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title><?php wp_title( '|', true, 'right' ); ?></title>
+<script src="./wp-content/themes/arcade-basic/library/js/jquery-2.1.1.js"></script>
+<script src="./wp-content/themes/arcade-basic/library/js/smoothscrollup.js"></script>
+
+
+
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="./wp-content/themes/arcade-basic/library/js/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="./wp-content/themes/arcade-basic/library/js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="./wp-content/themes/arcade-basic/library/js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="./wp-content/themes/arcade-basic/library/js/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="./wp-content/themes/arcade-basic/library/js/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="./wp-content/themes/arcade-basic/library/js/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="./wp-content/themes/arcade-basic/library/js/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="./wp-content/themes/arcade-basic/library/js/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link rel="stylesheet" href="./wp-content/themes/arcade-basic/custom.css" type="text/css">
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+
+	$(document).ready(function() {
+	$(".fancybox-button").fancybox({
+		prevEffect		: 'none',
+		nextEffect		: 'none',
+		closeBtn		: false,
+		helpers		: {
+			title	: { type : 'inside' },
+			buttons	: {}
+		}
+	});
+});
+</script>
+
+
+
 <!--[if IE]><script src="<?php echo BAVOTASAN_THEME_URL; ?>/library/js/html5.js"></script><![endif]-->
 <?php wp_head(); ?>
+
 </head>
+
+<a id="top"></a>
+
 <?php
 $bavotasan_theme_options = bavotasan_theme_options();
 $space_class = '';
@@ -30,6 +79,7 @@ $space_class = '';
 <body <?php body_class(); ?>>
 
 	<div id="page">
+
 
 		<header id="header">
 			<nav id="site-navigation" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -51,7 +101,6 @@ $space_class = '';
 					?>
 				</div>
 			</nav><!-- #site-navigation -->
-
 			 <div class="title-card-wrapper">
                 <div class="title-card">
     				<div id="site-meta">

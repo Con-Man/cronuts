@@ -12,7 +12,11 @@ global $paged;
 		<?php if ( is_single() ) : ?>
 			<?php the_title(); ?>
 		<?php else : ?>
-			<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
+			<div class="news_post_title">
+				<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">	
+					<?php the_title(); ?>
+				</a>
+			</div>
 		<?php endif; // is_single() ?>
 	</h1>
 

@@ -1,8 +1,4 @@
-/* Global Styles */
-.primary-content { 
-	max-width: 100%;
-	padding: 1em 3em 1em 3em;
-}
+ Global Styles */
 ::selection {
   background: #EC048B; /* WebKit/Blink Browsers */
   color: #fff;
@@ -22,10 +18,23 @@ border: 0;
 border-bottom: 3px solid #eee;
 }
 
+#smoothup { 
+position: fixed;
+border-radius: 2em;
+right: 0.6em;
+bottom: 1em;
+background: #EC048B;
+opacity: 0.8;
+padding: 0.5em;
+color: #fff;
+font-weight: 700;
+z-index: 999;
+}
 /* End of Global Styles*/
 
 
 /* Homepage Styling*/
+
 #site-title, #site-description { 
 	display: none;
 }
@@ -62,7 +71,50 @@ border-bottom: 3px solid #eee;
 
 .homepage-content { 
 	padding: 0 3em 2em 3em;
+	background: #f7f7f7;
 }
+
+/* News Page Template */
+.news_post_title:before {
+	font-family: FontAwesome;
+	content: "\f0d9";
+	margin-right: -7px;
+	color: #EC2E9C;
+}
+.news_post_title a {
+	background: #EC2E9C;
+	color: #fff !important;
+	padding: 5px;
+}
+
+.news_from_site, .news_from_twitter { 
+	text-align:center;
+}
+
+.news_from_site:after {
+	width: 100%;
+	content: "";
+	display: block;
+	height: 30px;
+	border: 0;
+	border-bottom: 3px solid #eee;
+}
+
+.news_from_twitter:after { 
+	width: 100%;
+	content: "";
+	display: block;
+	height: 30px;
+	border: 0;
+	border-bottom: 3px solid #eee;
+}
+
+.twitter_feed { 
+	text-align: center;
+}
+
+
+/* End of News Page Template*/
 
 /* Video Page Template*/
 
@@ -110,6 +162,8 @@ clear: left;
 
 .team_member_image { 
 	text-align: center;
+	max-width: 160px;
+	margin: 0 auto;
 }
 
 .team_member_image img { 
@@ -144,7 +198,6 @@ max-width: 100% !important;
 	color: #fff;
 	width: 200px;
 	padding: 1em;
-	margin: 0 0 0 1em;
 	-webkit-transition: all .25s ease;
 	   -moz-transition: all .25s ease;
 	    -ms-transition: all .25s ease;
@@ -293,3 +346,29 @@ max-width: 100% !important;
 
 /* End of Footer Styling*/
 
+/* Contact Page Styling */
+
+.google-map {
+	text-align: center;
+}
+.contact_information { 
+	text-align: center;
+	line-height: 2;
+}
+
+/* End of Contact Page Styling */
+
+/* Gallery Page */
+#gallery { 
+	text-align: center;
+	margin-bottom;
+}
+
+img.gallery_image {
+	height: 200px;
+	width: 300px;
+	margin-bottom: 2em;
+	border: 5px solid #ccc;
+}
+
+/* End of Gallery Page

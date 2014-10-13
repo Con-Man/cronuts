@@ -9,6 +9,7 @@
 $bavotasan_theme_options = bavotasan_theme_options();
 ?>
 	
+	<a href="#top" id="smoothup" class="scroll-top"><i class="fa fa-arrow-up fa-2x"></i></a>
 
 	</main><!-- main -->
 	<div class="social-icons row" style="text-align:center; margin:auto;">

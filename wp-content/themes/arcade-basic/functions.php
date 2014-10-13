@@ -173,6 +173,7 @@ function bavotasan_add_js() {
 	wp_enqueue_script( 'arctext', BAVOTASAN_THEME_URL .'/library/js/jquery.arctext.js', array( 'jquery' ), '', true );
 	wp_enqueue_script( 'theme_js', BAVOTASAN_THEME_URL .'/library/js/theme.js', array( 'bootstrap' ), '', true );
 
+
 	$fittext = ( empty( $bavotasan_theme_options['fittext'] ) ) ? '' : $bavotasan_theme_options['fittext'];
 	wp_localize_script( 'theme_js', 'theme_js_vars', array(
 		'arc' => absint( $bavotasan_theme_options['arc'] ),
