@@ -7,7 +7,7 @@
 #more-site { 
 	margin-top: 20em !important;
 	margin-bottom: 1em;
-	color: #D9534F !important;
+	color: #000!important;
 	border: none !important;
 	font-weight: 800;
 	font-size: 1.5em;
@@ -28,7 +28,7 @@
 .more-site-arrow { 
 	font-size: 1em !important;
 	padding: 0 !important;
-	color: #D9534F !important;
+	color: #000 !important;
 }
 
 #home-page-widgets { 
@@ -95,9 +95,66 @@ max-width: 100% !important;
 /* Homepage Widget Styling */
 
 .bavotasan_custom_text_widget i.cronuts_color1 {
-  color: #EC048C;
+  color: #EC008B;
   border-color: #EC048C;
 }
 
+.bavotasan_custom_text_widget i.cronuts_color2 {
+  color: #FFDD17;
+  border-color: #FFDD17;
+}
+
+.bavotasan_custom_text_widget i.cronuts_color3 {
+  color: #25D9DA;
+  border-color: #25D9DA;
+}
 
 /* End of Homepage Widget Styling*/
+
+/* Footer Styling */
+.social-icons { 
+	padding-bottom: 1em;
+}
+
+.facebook-icon i { 
+	color: #222;
+	border-color: #222;
+	border-radius: 2em;
+	font-size: 40px;
+	line-height: 80px;
+	width: 80px;
+	height: 80px;
+	margin: 0 auto 30px;
+	display: block;
+	border: 3px solid;
+}
+
+.youtube-icon i { 
+	color: #222;
+	border-color: #222;
+	border-radius: 2em;
+	font-size: 40px;
+	line-height: 80px;
+	width: 80px;
+	height: 80px;
+	margin: 0 auto 30px;
+	display: block;
+	border: 3px solid;
+}
+}
+
+.twitter-icon i { 
+	color: #222;
+	border-color: #222;
+	border-radius: 2em;
+	font-size: 40px;
+	line-height: 80px;
+	width: 80px;
+	height: 80px;
+	margin: 0 auto 30px;
+	display: block;
+	border: 3px solid;
+}
+}
+
+/* End of Footer Styling*/

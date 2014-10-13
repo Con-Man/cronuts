@@ -8,7 +8,10 @@
  */
 $bavotasan_theme_options = bavotasan_theme_options();
 ?>
-		<div class="social-icons row" style="text-align:center; margin:auto;">
+	
+
+	</main><!-- main -->
+	<div class="social-icons row" style="text-align:center; margin:auto;">
 			<div class="facebook-icon col-md-4"> 
 				<i class="fa fa-facebook fa-4x"></i>
 			</div>
@@ -22,9 +25,6 @@ $bavotasan_theme_options = bavotasan_theme_options();
 			</div>	
 		</div>
 	</div>
-
-	</main><!-- main -->
-
 	<footer id="footer" role="contentinfo">
 		<div id="footer-content" class="container">
 			<div class="row">

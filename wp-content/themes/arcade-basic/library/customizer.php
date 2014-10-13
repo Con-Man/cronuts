@@ -239,7 +239,9 @@ class Bavotasan_Customizer {
 			'danger' => __( 'Red', 'arcade' ),
 			'warning' => __( 'Yellow', 'arcade' ),
 			'success' => __( 'Green', 'arcade' ),
-			'cronuts_color1' => __( 'Pink', 'arcade' ),
+			'cronuts_color1' => __( 'Cronuts Pink', 'arcade' ),
+			'cronuts_color2' => __( 'Cronuts Yellow', 'arcade' ),
+			'cronuts_color3' => __( 'Cronuts Blue', 'arcade' ),
 
 		);
 

@@ -100,9 +100,9 @@ class Bavotasan_Custom_Text_Widget extends WP_Widget {
 			'danger' => __( 'Red', 'arcade' ),
 			'warning' => __( 'Yellow', 'arcade' ),
 			'success' => __( 'Green', 'arcade' ),
-			'cronuts_color1' => __( 'Pink', 'arcade' ),
-
-
+			'cronuts_color1' => __( 'Cronuts Pink', 'arcade' ),
+			'cronuts_color2' => __( 'Cronuts Yellow', 'arcade' ),
+			'cronuts_color3' => __( 'Cronuts Blue', 'arcade' ),
 		);
 		foreach ( $options as $value => $key ) {
 			echo '<option value="' . $value . '" ' . selected( $button_color, $value, false ) . '>' . $key . '</option>';
