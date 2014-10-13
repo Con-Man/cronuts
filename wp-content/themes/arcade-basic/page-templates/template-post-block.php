@@ -18,6 +18,8 @@ if ( ! is_front_page() )
 				</div>
 
 				<div class="row">
+					<div class="col-md-6">
+					<h1 style="text-align:center;">From the Site</h1></br>
 					<?php
 					$bavotasan_post_block_query = new WP_Query( array(
 						'posts_per_page' => 4,
@@ -46,7 +48,13 @@ if ( ! is_front_page() )
 							echo '</div>';
 					endwhile;
 					?>
+					</div>
 				</div>
+					<div col-md-6>
+					<h1 style="text-align:center;">From Twitter</h1></br>
+					<a class="twitter-timeline" href="https://twitter.com/CronutsComedy" data-widget-id="521521021375881216">Tweets by @CronutsComedy</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					</div>
 			</div>
 		</div>
 	</div>
